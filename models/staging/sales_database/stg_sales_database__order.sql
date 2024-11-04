@@ -2,7 +2,7 @@ SELECT
     order_id,
     order_status,
 DATETIME(order_date,'Europe/Paris') as order_created_at,
-    DATETIME(order_approved_date,'Europe/Paris') as order_ ,
+    DATETIME(order_approved_date,'Europe/Paris') as order_approved_date ,
     DATETIME(pickup_date,'Europe/Paris')  AS order_pickup_at,
     DATETIME(delivered_date,'Europe/Paris') AS order_delivered_at,
     user_name as customer_id, 

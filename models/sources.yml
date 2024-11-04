@@ -8,8 +8,8 @@ sources:
       - name : events_flattened
       - name : events_flattened_clustered
       
-  - name: google_sheets
-    schema: google_sheets
+  - name: googles_sheets
+    schema: googles_sheets
     tables:
       - name: account_manager_region_mapping
       - name : marketing_budget
