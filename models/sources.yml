@@ -24,3 +24,9 @@ sources:
       - name: order_item
       - name: seller
       - name: user
+
+  - name: spotify
+    schema: spotify
+    tables:
+      - name: songs
+      - name : listening_data
