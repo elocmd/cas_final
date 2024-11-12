@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: int_sales_database__customer
-    description: '{{doc("int_sales_database_customer")}}'
+    description: '{{doc("int_sales_database__customer")}}'
        
 
     columns:
