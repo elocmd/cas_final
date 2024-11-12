@@ -7,5 +7,5 @@ DATETIME(pickup_limit_date,'Europe/Paris') as pickup_limit_at,
 shipping_cost, 
 quantity,
 price as unit_price,
-(price * quantity) + shipping_cost as total_order_item_amount
+(price * quantity) + shipping_cost as total_order_amount
 FROM {{source('sales_database','order_item')}}
