@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: int_sales_database__order
-    description: '{{doc("int_sales_database_order")}}'
+    description: '{{doc("int_sales_database__order")}}'
        
 
     columns:
