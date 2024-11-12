@@ -2,7 +2,7 @@
 -- Therefore return records where total_amount < 0 to make the test fail.
 select
     order_id,
-    sum(total_amount) as total_amount
+    sum(total_order_amount) as total_amount
 from {{ ref('stg_sales_database__order_item') }}
 group by 1
 having total_amount < 0
