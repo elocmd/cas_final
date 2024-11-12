@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: int_google_analytics_session
+    description: '{{doc("int_google_analytics_session")}}'
+       
+
+    columns:
+      - name: unique_session_id
+        description: This is a unique identifier for the session

@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: int_google_analytics_session
+    description: This table contains informations about GA sessions
+       
+
+    columns:
+      - name: unique_session_id
+        description: This is a unique identifier for the session

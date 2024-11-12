@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: mart_order_daily_report.sql
+    description: '{{doc("mart_order_daily_report")}}'
+       
+
+    columns:
+      - name: order_id
+        description: This is a unique identifier for the order

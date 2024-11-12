@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: stg_google_analytics__event
+    description: This table contains informations about events
+       

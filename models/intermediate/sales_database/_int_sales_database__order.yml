@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: int_sales_database__order
+    description: '{{doc("int_sales_database_order")}}'
+       
+
+    columns:
+      - name: order_id
+        description: This is a unique identifier for the order
