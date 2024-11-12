@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: int_google_analytics_session
-    description: '{{doc("int_google_analytics_session")}}'
+  - name: int_google_analytics__session
+    description: '{{doc("int_google_analytics__session")}}'
        
 
     columns:

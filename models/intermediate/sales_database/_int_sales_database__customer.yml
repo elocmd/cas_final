@@ -1,7 +1,7 @@
 version: 2
 
 models:
-  - name: stg_sales_database__customer
+  - name: int_sales_database__customer
     description: '{{doc("int_sales_database_customer")}}'
        
 
